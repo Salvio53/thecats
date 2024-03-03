@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Gatos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Gatos</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index">Inicio</a></li>
+            <li><a href="mission_vision">Misión y Visión</a></li>
+            <li><a href="productos">Productos</a></li>
+            <li><a href="galeria">Galería</a></li>
+        </ul>
+    </nav>
+    <header> 
+        <h1>Bienvenido a la Página de Gatos</h1>
+    </header>
+    <section>
+        <h2>Los gatos son expertos en dormir, y un gato adulto promedio puede dormir entre 12 y 16 horas al día. Esta habilidad se debe a su naturaleza depredadora, ya que los gatos en la naturaleza pasan grandes cantidades de tiempo descansando para conservar energía para la caza. Además, los gatos domésticos suelen tener ciclos de sueño cortos, lo que les permite estar alerta y listos para la acción en cualquier momento.</h2>
+        <img src="gato1.jpg" alt="Gato1">
+        <figcaption>¡Un gato muy tierno!</figcaption>
+
+        <img src="gato2.webp" alt="Gato2">
+        <figcaption>Unos gatos muy bonitos posando en una canasta!</figcaption>
+
+        <img src="gato3.webp" alt="Gato3">
+        <figcaption>Explorando el mundo gatuno.</figcaption>
+
+    </section>
+    <section>
+        <h1>Contacto</h1>
+        <form>
+            <fieldset>
+                <legend>Formulario de contacto</legend>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido" required>
+
+                <label for="correo">Correo</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="contrasena">Contraseña</label>
+                <input type="password" id="contrasena" name="contrasena" placeholder="Ingresa tu contraseña" required>
+
+                <label for="genero">Selecciona género:</label>
+                <select id="genero" name="genero" onchange="validarOpciones(this)">
+                    <option value="hombre">Hombre</option>
+                    <option value="mujer">Mujer</option>
+                </select>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
